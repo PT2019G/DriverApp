@@ -1,0 +1,14 @@
+CREATE TABLE register (
+    id int NOT NULL AUTO_INCREMENT,
+    name varchar(255),
+	email varchar(255),
+	contact int,
+	adharcard int,
+    pancard varchar(255),
+    licenceno varchar(255),
+	state varchar(255),
+	district varchar(255),
+	city varchar(255),
+	birthdate date,
+    PRIMARY KEY (id)
+);
